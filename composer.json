@@ -20,8 +20,8 @@
     }
   ],
   "require": {
-    "ibvz/objects": "dev-main",
-    "ibvz/users": "dev-main"
+    "ibvz/objects": "dev-master",
+    "ibvz/users": "dev-master"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
