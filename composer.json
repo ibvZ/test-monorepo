@@ -1,15 +1,11 @@
 {
+  "name": "ibvz/monorepo",
+  "description": "Monorepository for ibvz packages",
+  "type": "project",
   "repositories": [
     {
       "type": "path",
-      "url": "./objects",
-      "options": {
-        "symlink": true
-      }
-    },
-    {
-      "type": "path",
-      "url": "./users",
+      "url": "./packages/*",
       "options": {
         "symlink": true
       }
@@ -18,5 +14,12 @@
   "require": {
     "ibvz/objects": "@dev",
     "ibvz/users": "@dev"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": {
+      "*": "source"
+    }
   }
 }

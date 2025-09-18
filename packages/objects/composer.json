@@ -1,11 +1,11 @@
 {
-  "name": "ibvz/users",
-  "description": "Users package",
+  "name": "ibvz/objects",
+  "description": "Objects package",
   "type": "library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "autoload": {
     "psr-4": {
-      "Ibvz\\Users\\": "src/"
+      "Ibvz\\Objects\\": "src/"
     }
   },
   "require": {
