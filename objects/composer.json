@@ -14,5 +14,6 @@
     "branch-alias": {
       "master": "1.0.x-dev"
     }
-  }
+  },
+  "version": "1.0.0"
 }
