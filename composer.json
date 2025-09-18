@@ -1,0 +1,22 @@
+{
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./objects",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "type": "path",
+      "url": "./users",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "require": {
+    "ibvz/objects": "@dev",
+    "ibvz/users": "@dev"
+  }
+}
