@@ -4,10 +4,6 @@
   "type": "project",
   "repositories": [
     {
-      "type": "git",
-      "url": "https://github.com/ibvZ/test-monorepo.git"
-    },
-    {
       "type": "path",
       "url": "./*",
       "options": {
@@ -16,21 +12,24 @@
     }
   ],
   "require": {
-    "ibvz/objects": "master",
-    "ibvz/users": "master"
+    "ibvz/objects": "dev-master",
+    "ibvz/users": "dev-master"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "config": {
-    "optimize-autoloader": true,
-    "preferred-install": {
-      "*": "dist"
-    },
-    "sort-packages": true
-  },
   "extra": {
     "branch-alias": {
-      "master": "1.0.x"
+      "master": "1.0.x-dev"
     }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@composer install --working-dir=objects",
+      "@composer install --working-dir=users"
+    ],
+    "post-update-cmd": [
+      "@composer update --working-dir=objects",
+      "@composer update --working-dir=users"
+    ]
   }
 }

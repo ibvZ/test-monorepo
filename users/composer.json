@@ -1,10 +1,10 @@
 {
-  "name": "ibvz/users",
-  "description": "Описание пакета users",
+  "name": "ibvz/objects",
+  "description": "Пакет объектов",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Ibvz\\Users\\": "src/"
+      "Ibvz\\Objects\\": "src/"
     }
   },
   "require": {
@@ -12,7 +12,7 @@
   },
   "extra": {
     "branch-alias": {
-      "master": "1.0.x"
+      "dev-master": "1.0.x-dev"
     }
   }
 }

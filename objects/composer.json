@@ -12,7 +12,7 @@
   },
   "extra": {
     "branch-alias": {
-      "master": "1.0.x"
+      "master": "1.0.x-dev"
     }
   }
 }
