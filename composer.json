@@ -8,5 +8,9 @@
       "type": "path",
       "url": "./users"
     }
-  ]
+  ],
+  "require": {
+    "pidev-monorepo/objects": "^1.0.1",
+    "pidev-monorepo/users": "^1.0.1"
+  }
 }
