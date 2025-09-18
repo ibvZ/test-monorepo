@@ -1,4 +1,7 @@
 {
+  "name": "ibvz/monorepo",
+  "description": "Монорепозиторий для пакетов",
+  "type": "project",
   "repositories": [
     {
       "type": "git",
@@ -6,23 +9,28 @@
     },
     {
       "type": "path",
-      "url": "./objects",
-      "options": {
-        "symlink": true
-      }
-    },
-    {
-      "type": "path",
-      "url": "./users",
+      "url": "./*",
       "options": {
         "symlink": true
       }
     }
   ],
   "require": {
-    "ibvz/objects": "dev-master",
-    "ibvz/users": "dev-master"
+    "ibvz/objects": "master",
+    "ibvz/users": "master"
   },
   "minimum-stability": "dev",
-  "prefer-stable": false
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "master": "1.0.x"
+    }
+  }
 }

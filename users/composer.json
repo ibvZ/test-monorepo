@@ -8,6 +8,11 @@
     }
   },
   "require": {
-    "php": "^8.0"
+    "php": "^8.0",
+  },
+  "extra": {
+    "branch-alias": {
+      "master": "1.0.x"
+    }
   }
 }
