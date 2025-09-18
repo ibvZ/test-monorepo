@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "Ibvz/pidev-monorepo/objects": "^1.0.1",
-    "Ibvz/pidev-monorepo/users": "^1.0.1"
+    "Ibvz/objects": "^1.0.1",
+    "Ibvz/users": "^1.0.1"
   }
 }

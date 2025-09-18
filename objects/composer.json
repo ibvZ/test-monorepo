@@ -1,10 +1,10 @@
 {
-  "name": "Ibvz/pidev-monorepo/objects",
+  "name": "Ibvz/objects",
   "description": "Описание пакета objects",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Ibvz\\PidevMonorepo\\Objects\\": "/"
+      "Ibvz\\Objects\\": "/"
     }
   },
   "require": {
