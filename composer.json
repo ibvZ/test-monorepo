@@ -22,5 +22,7 @@
   "require": {
     "ibvz/objects": "^1.0.5",
     "ibvz/users": "^1.0.5"
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
