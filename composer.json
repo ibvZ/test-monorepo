@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "Ibvz/objects": "^1.0.1",
-    "Ibvz/users": "^1.0.1"
+    "ibvz/objects": "^1.0.1",
+    "ibvz/users": "^1.0.1"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Ibvz/users",
+  "name": "ibvz/users",
   "description": "Описание пакета users",
   "type": "library",
   "autoload": {
