@@ -1,14 +1,14 @@
 {
-  "name": "ibvz/objects",
+  "name": "ibvz/users",
   "description": "Пакет объектов",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Ibvz\\Objects\\": "src/"
+      "Ibvz\\Users\\": "src/"
     }
   },
   "require": {
-    "php": "^8.0",
+    "php": "^8.0"
   },
   "extra": {
     "branch-alias": {
