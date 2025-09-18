@@ -1,0 +1,13 @@
+{
+  "name": "pidev-monorepo/objects",
+  "description": "Описание пакета objects",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "PidevMonorepo\\Objects\\": "/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}

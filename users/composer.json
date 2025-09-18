@@ -1,0 +1,13 @@
+{
+  "name": "pidev-monorepo/users",
+  "description": "Описание пакета users",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "PidevMonorepo\\Users\\": "/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}
