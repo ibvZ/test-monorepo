@@ -1,7 +1,8 @@
 {
   "name": "ibvz/objects",
-  "description": "Описание пакета objects",
+  "description": "Objects package",
   "type": "library",
+  "version": "1.0.0",
   "autoload": {
     "psr-4": {
       "Ibvz\\Objects\\": "src/"
@@ -10,10 +11,5 @@
   "require": {
     "php": "^8.0"
   },
-  "extra": {
-    "branch-alias": {
-      "master": "1.0.x-dev"
-    }
-  },
-  "version": "1.0.1"
+  "minimum-stability": "dev"
 }

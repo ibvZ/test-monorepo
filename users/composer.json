@@ -1,7 +1,8 @@
 {
   "name": "ibvz/users",
-  "description": "Пакет объектов",
+  "description": "Users package",
   "type": "library",
+  "version": "1.0.0",
   "autoload": {
     "psr-4": {
       "Ibvz\\Users\\": "src/"
@@ -10,10 +11,5 @@
   "require": {
     "php": "^8.0"
   },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.x-dev"
-    }
-  },
-  "version": "1.0.1"
+  "minimum-stability": "dev"
 }
