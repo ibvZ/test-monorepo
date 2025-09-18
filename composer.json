@@ -6,15 +6,21 @@
     },
     {
       "type": "path",
-      "url": "./objects"
+      "url": "./objects",
+      "options": {
+        "symlink": true
+      }
     },
     {
       "type": "path",
-      "url": "./users"
+      "url": "./users",
+      "options": {
+        "symlink": true
+      }
     }
   ],
   "require": {
-    "ibvz/objects": "^1.0.1",
-    "ibvz/users": "^1.0.1"
+    "ibvz/objects": "^1.0.5",
+    "ibvz/users": "^1.0.5"
   }
 }
