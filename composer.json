@@ -20,8 +20,8 @@
     }
   ],
   "require": {
-    "ibvz/objects": "^1.0.5",
-    "ibvz/users": "^1.0.5"
+    "ibvz/objects": "^1.0.6",
+    "ibvz/users": "^1.0.6"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
