@@ -1,5 +1,4 @@
 {
-  "name": "monorepo",
   "repositories": [
     {
       "type": "git",
@@ -21,8 +20,8 @@
     }
   ],
   "require": {
-    "ibvz/objects": "^1.0.7",
-    "ibvz/users": "^1.0.7"
+    "ibvz/objects": "dev-main",
+    "ibvz/users": "dev-main"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
