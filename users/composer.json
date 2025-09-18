@@ -1,10 +1,10 @@
 {
-  "name": "pidev-monorepo/users",
+  "name": "Ibvz/pidev-monorepo/users",
   "description": "Описание пакета users",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "PidevMonorepo\\Users\\": "/"
+      "Ibvz\\PidevMonorepo\\Users\\": "/"
     }
   },
   "require": {

@@ -1,6 +1,10 @@
 {
   "repositories": [
     {
+      "type": "git",
+      "url": "https://github.com/ibvZ/test-monorepo.git"
+    },
+    {
       "type": "path",
       "url": "./objects"
     },
@@ -10,7 +14,7 @@
     }
   ],
   "require": {
-    "pidev-monorepo/objects": "^1.0.1",
-    "pidev-monorepo/users": "^1.0.1"
+    "Ibvz/pidev-monorepo/objects": "^1.0.1",
+    "Ibvz/pidev-monorepo/users": "^1.0.1"
   }
 }
