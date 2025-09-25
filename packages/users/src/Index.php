@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 
-namespace users\src;
+namespace Users\Src;
+
 class Index {
 
 }
