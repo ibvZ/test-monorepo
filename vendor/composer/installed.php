@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'ibvz/monorepo',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'c91e20cf28687916fd2b19061dbd7edfc63683a8',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'ibvz/monorepo' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'c91e20cf28687916fd2b19061dbd7edfc63683a8',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ibvz/objects' => array(
+            'pretty_version' => '1.0.2',
+            'version' => '1.0.2.0',
+            'reference' => '461ec2ea7610b0411a4170dfb70108d10e693a04',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ibvz/objects',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ibvz/users' => array(
+            'pretty_version' => '1.0.2',
+            'version' => '1.0.2.0',
+            'reference' => '6cae234097d645f68eae7aaebaa39296424e716b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ibvz/users',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
