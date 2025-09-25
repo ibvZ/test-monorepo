@@ -1,15 +1,21 @@
 {
-  "name": "ibvz/users",
-  "description": "Users package",
-  "type": "library",
-  "version": "1.0.2",
-  "autoload": {
-    "psr-4": {
-      "Ibvz\\Users\\": "src/"
-    }
-  },
+  "name": "packages/users",
+  "description": "users package",
   "require": {
     "php": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Packages\\Users\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
   },
   "minimum-stability": "dev"
 }
