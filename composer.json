@@ -1,26 +1,29 @@
 {
   "name": "ibvz/monorepo",
   "require": {
-    "php": "^8.0"
+    "php": "^8.0",
+    "packages/objects": "^1.0.9",
+    "packages/users": "^1.0.9"
   },
-  "replace": {
-    "packages/objects": "self.version",
-    "packages/users": "self.version"
-  },
-
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./packages/*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Packages\\": "packages/"
     }
   },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.x-dev"
-    }
-  },
-  "config": {
-    "sort-packages": true
-  },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": {
+      "*": "source"
+    }
+  }
 }
