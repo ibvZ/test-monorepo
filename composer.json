@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": "^8.0",
-    "packages/objects": "@dev",
-    "packages/users": "@dev"
+    "ibvz/objects": "@dev",
+    "ibvz/users": "@dev"
   }
 }
