@@ -6,7 +6,11 @@
   "repositories": [
     {
       "type": "path",
-      "url": "packages/*"
+      "url": "packages/objects"
+    },
+    {
+      "type": "path",
+      "url": "packages/users"
     }
   ],
   "require": {
