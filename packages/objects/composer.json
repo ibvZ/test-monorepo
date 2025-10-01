@@ -1,21 +1,13 @@
 {
   "name": "packages/objects",
+  "type": "library",
   "description": "objects package",
   "require": {
     "php": "^8.0"
   },
   "autoload": {
     "psr-4": {
-      "Packages\\Objects\\": ""
+      "Packages\\Objects\\": "./"
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.x-dev"
-    }
-  },
-  "config": {
-    "sort-packages": true
-  },
-  "minimum-stability": "dev"
+  }
 }
