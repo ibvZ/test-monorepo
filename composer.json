@@ -10,8 +10,7 @@
     }
   ],
   "require": {
-    "php": "^8.0",
-    "packages/objects": "@dev",
-    "packages/users": "@dev"
+    "packages/objects": "dev-master",
+    "packages/users": "dev-master"
   }
 }
