@@ -1,5 +1,5 @@
 {
-  "name": "packages/users",
+  "name": "ibvz/users",
   "type": "library",
   "description": "users package",
   "require": {
@@ -7,7 +7,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Packages\\Users\\": ""
+      "IBVZ\\Users\\": ""
     }
   }
 }

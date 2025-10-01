@@ -1,5 +1,5 @@
 {
-  "name": "packages/objects",
+  "name": "ibvz/objects",
   "type": "library",
   "description": "objects package",
   "require": {
@@ -7,7 +7,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Packages\\Objects\\": ""
+      "IBVZ\\Objects\\": ""
     }
   }
 }
