@@ -6,16 +6,12 @@
   "repositories": [
     {
       "type": "path",
-      "url": "packages/objects"
-    },
-    {
-      "type": "path",
-      "url": "packages/users"
+      "url": "packages/*"
     }
   ],
   "require": {
     "php": "^8.0",
-    "ibvz/objects": "@dev",
-    "ibvz/users": "@dev"
+    "packages/objects": "@dev",
+    "packages/users": "@dev"
   }
 }
