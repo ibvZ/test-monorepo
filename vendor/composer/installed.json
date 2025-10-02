@@ -1,56 +1,5 @@
 {
-    "packages": [
-        {
-            "name": "packages/objects",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "packages/objects",
-                "reference": "c9802d2e629de080faaeaaeb283ce032da1921b6"
-            },
-            "require": {
-                "php": "^8.0"
-            },
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Packages\\Objects\\": ""
-                }
-            },
-            "description": "objects package",
-            "transport-options": {
-                "relative": true
-            },
-            "install-path": "../packages/objects"
-        },
-        {
-            "name": "packages/users",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "packages/users",
-                "reference": "e1fe9de8482a36efe745b6771575dce1fbc1792f"
-            },
-            "require": {
-                "php": "^8.0"
-            },
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Packages\\Users\\": ""
-                }
-            },
-            "description": "users package",
-            "transport-options": {
-                "relative": true
-            },
-            "install-path": "../packages/users"
-        }
-    ],
+    "packages": [],
     "dev": true,
     "dev-package-names": []
 }

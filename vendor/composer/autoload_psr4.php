@@ -6,6 +6,4 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Packages\\Users\\' => array($vendorDir . '/packages/users'),
-    'Packages\\Objects\\' => array($vendorDir . '/packages/objects'),
 );

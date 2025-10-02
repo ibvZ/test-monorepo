@@ -4,63 +4,17 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0349ceba30555f19e4cdea7bd9f6758d",
-    "packages": [
-        {
-            "name": "packages/objects",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "packages/objects",
-                "reference": "c9802d2e629de080faaeaaeb283ce032da1921b6"
-            },
-            "require": {
-                "php": "^8.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Packages\\Objects\\": ""
-                }
-            },
-            "description": "objects package",
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
-            "name": "packages/users",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "packages/users",
-                "reference": "e1fe9de8482a36efe745b6771575dce1fbc1792f"
-            },
-            "require": {
-                "php": "^8.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Packages\\Users\\": ""
-                }
-            },
-            "description": "users package",
-            "transport-options": {
-                "relative": true
-            }
-        }
-    ],
+    "content-hash": "154af74aa911869d10c6e8f403e86225",
+    "packages": [],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "packages/objects": 20,
-        "packages/users": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=8.2"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
