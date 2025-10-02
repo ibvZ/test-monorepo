@@ -2,7 +2,7 @@
   "name": "ibvz/users",
   "description": "Description for users",
   "type": "library",
-  "version": "v1.0.4",
+  "version": "v1.0.5",
   "require": {
     "php": ">=8.2"
   },
