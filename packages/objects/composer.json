@@ -2,7 +2,7 @@
   "name": "packages/objects",
   "description": "Description for objects",
   "type": "library",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "require": {
     "php": ">=8.2"
   },
