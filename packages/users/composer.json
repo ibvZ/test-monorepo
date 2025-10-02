@@ -2,7 +2,7 @@
   "name": "packages/users",
   "description": "Description for users",
   "type": "library",
-  "version": "v1.0.17",
+  "version": "v1.0.1",
   "require": {
     "php": ">=8.2"
   },
