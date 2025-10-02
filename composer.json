@@ -5,11 +5,16 @@
   "repositories": [
     {
       "type": "path",
-      "url": "packages/*"
+      "url": "packages/*",
+      "options": {
+        "symlink": true
+      }
     }
   ],
   "require": {
-    "php": ">=8.2"
+    "php": ">=8.2",
+    "ibvz/objects": "@dev",
+    "ibvz/users": "@dev"
   },
   "minimum-stability": "dev",
   "prefer-stable": true

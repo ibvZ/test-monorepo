@@ -4,12 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "154af74aa911869d10c6e8f403e86225",
-    "packages": [],
+    "content-hash": "cc314be98faffd2ec6ce57bcea8a3273",
+    "packages": [
+        {
+            "name": "ibvz/objects",
+            "version": "v1.0.4",
+            "dist": {
+                "type": "path",
+                "url": "packages/objects",
+                "reference": "2437f0b213e59272e1433261aa2e6d471b58e78f"
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ibvz\\Objects\\": ""
+                }
+            },
+            "description": "Description for objects",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "ibvz/users",
+            "version": "v1.0.4",
+            "dist": {
+                "type": "path",
+                "url": "packages/users",
+                "reference": "26ab79314af155e5a0451c0fd7344109444c11e7"
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ibvz\\Users\\": ""
+                }
+            },
+            "description": "Description for users",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "ibvz/objects": 20,
+        "ibvz/users": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

@@ -1,14 +1,14 @@
 {
-  "name": "packages/users",
+  "name": "ibvz/users",
   "description": "Description for users",
   "type": "library",
-  "version": "v1.0.3",
+  "version": "v1.0.4",
   "require": {
     "php": ">=8.2"
   },
   "autoload": {
     "psr-4": {
-      "Packages\\Users\\": ""
+      "Ibvz\\Users\\": ""
     }
   }
 }

@@ -6,4 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Ibvz\\Users\\' => array($vendorDir . '/ibvz/users'),
+    'Ibvz\\Objects\\' => array($vendorDir . '/ibvz/objects'),
 );

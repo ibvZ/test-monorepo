@@ -1,5 +1,58 @@
 {
-    "packages": [],
+    "packages": [
+        {
+            "name": "ibvz/objects",
+            "version": "v1.0.4",
+            "version_normalized": "1.0.4.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/objects",
+                "reference": "2437f0b213e59272e1433261aa2e6d471b58e78f"
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Ibvz\\Objects\\": ""
+                }
+            },
+            "description": "Description for objects",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../ibvz/objects"
+        },
+        {
+            "name": "ibvz/users",
+            "version": "v1.0.4",
+            "version_normalized": "1.0.4.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/users",
+                "reference": "26ab79314af155e5a0451c0fd7344109444c11e7"
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Ibvz\\Users\\": ""
+                }
+            },
+            "description": "Description for users",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "../ibvz/users"
+        }
+    ],
     "dev": true,
     "dev-package-names": []
 }
