@@ -1,9 +1,9 @@
 {
   "name": "packages/users",
+  "description": "Description for users",
   "type": "library",
-  "description": "users package",
   "require": {
-    "php": "^8.0"
+    "php": ">=8.2"
   },
   "autoload": {
     "psr-4": {

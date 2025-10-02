@@ -1,8 +1,7 @@
 {
   "name": "ibvz/monorepo",
+  "description": "A PHP monorepo",
   "type": "project",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "repositories": [
     {
       "type": "path",
@@ -10,7 +9,8 @@
     }
   ],
   "require": {
-    "packages/objects": "dev-master",
-    "packages/users": "dev-master"
-  }
+    "php": ">=8.2"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
